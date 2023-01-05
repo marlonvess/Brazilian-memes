@@ -1,0 +1,13 @@
+.header img  {
+float: left;
+width: 100px;
+height: 100px;
+}
+
+footer {
+    background-color: green;
+    display: flex;
+}
+
+body 
+{ background-color: navy;}
