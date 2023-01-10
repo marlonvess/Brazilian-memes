@@ -1,13 +1,37 @@
-.header img  {
-float: left;
-width: 100px;
-height: 100px;
-}
 
 footer {
-    background-color: green;
-    display: flex;
+   bottom: 0;
 }
 
-body 
-{ background-color: navy;}
+body {
+    padding-top: 60px;
+    padding-bottom: 40px;
+}
+
+.head-container {
+    
+    width: 80%;
+    margin: 0 auto;
+    
+    
+} 
+
+ 
+.fixed-header, .fixed-footer {
+    width:  100%;
+    left: 0;
+    position: fixed;
+    background-color: rgb(242, 200, 11);
+    padding: 10px 0;
+    color:aliceblue;
+    
+    
+}
+
+.fixed-header {
+    top: 0;
+}
+
+.fixed-footer {
+    bottom: 0;
+}
