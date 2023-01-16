@@ -11,19 +11,20 @@ body {
 .head-container {
     
     width: 80%;
-    margin: 0 auto;
-    
-    
+    margin: 1px ;
+    text-align: right;
 } 
 
  
 .fixed-header, .fixed-footer {
     width:  100%;
-    left: 0;
+    max-height: 10%;
     position: fixed;
     background-color: rgb(242, 200, 11);
     padding: 10px 0;
     color:aliceblue;
+
+ 
     
     
 }
@@ -34,4 +35,18 @@ body {
 
 .fixed-footer {
     bottom: 0;
+}
+
+.head-logo img {
+    height: 60px;
+    max-width: 60px;
+    left: 0;
+    
+}
+
+.box-01 {
+    background-color: rgb(242, 200, 11);
+    margin-top: 30px;
+    max-width: 100%;
+    margin-right: 0;
 }
