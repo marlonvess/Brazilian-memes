@@ -4,10 +4,10 @@ body {
 
 .fixed-header {
 overflow: hidden;
-background-color: #1F2937;
+background-color: #121821;
 width: 100%;
-height: 60px;
 top: 0;
+
 }
 .fixed-header a {
     float: right;
@@ -27,3 +27,49 @@ top: 0;
     padding: 10px;
 }
 
+.box-01 {
+    width: 100%;
+    background-color: #121821;
+    color: white;
+    float: left;
+    clear: both;
+    text-align: left;
+}
+
+.box-01 p {
+    text-align: left;
+    
+}
+.box-01 img {
+    width: 400px;
+    height: 250px;
+    padding: 10px;
+    float: right;
+    border-radius: 20px;
+
+}
+
+.box02-info {
+    text-align: center;
+    font-weight: bold;
+    font-size: 45px;
+    
+}
+.box02-container {
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+.box02-container img {
+    height: 250px;
+    width:  250px;
+}
+.fixed-footer {
+    bottom: 0;
+    padding: 20px;
+    width: 100%;
+    background-color: #121821;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;ß
+    color: white;
+    text-align: center;
+}
