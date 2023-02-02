@@ -1,5 +1,6 @@
 body {
     margin: 0;
+    padding: 0;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
@@ -67,9 +68,6 @@ body {
 }
 
 
-
-
-
 .box02-info {
     color: #1f6cd8;
     font-size: 20px;
@@ -94,5 +92,47 @@ body {
 }
 
 .box-03 {
-    background-color: lightgray;
+    background-color: #E5E7EB;
+    height: 100px;
+    display: flex;
+    text-align: justify;
+    padding: 90px 70px 90px 90px;
+    font-style: light italic;
+    color: #1f2937;
+    margin: 15px;
+}
+
+.box-04 {
+    text-align: center;
+    background-color: #3882F6;
+    height: 80px;
+    width: 60%;
+    padding: 50px ;
+    margin: auto;
+    display: flex;
+    text-align: left;
+    color: white;
+}
+
+.info1 {
+    font-size: small;
+}
+button {
+font-size: 10px;
+padding: 10px 24px;
+text-align: center;
+color: white;
+background-color: #3882F6;
+border-radius: 12px;
+border: none;
+}
+
+.fixed-footer {
+    bottom: 0;
+    padding: 15px;
+    background-color: #1F2937;
+    width: 100%;
+    text-align: center;
+    color: white;
+    margin-top: 15px;
 }
