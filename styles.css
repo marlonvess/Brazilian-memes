@@ -1,75 +1,98 @@
 body {
     margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
 
 .fixed-header {
-overflow: hidden;
-background-color: #121821;
-width: 100%;
-top: 0;
-
-}
-.fixed-header a {
-    float: right;
+    background-color: #1f2937;
+    text-align: right;
+    width: 100%;
+    height: 45px;
+    top: 0;
     padding: 20px;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: white;
-    text-decoration: none;
-    font-size: 17px;
 }
 
-
-.head-logo img {
-    border-radius: 30px;
+.fixed-header img {
+    height: 50px;
+    width: 50px;
+    border-radius: 5%;
     float: left;
-    width: 40px;
-    height: 40px;
-    padding: 10px;
+    
 }
+
+.fixed-header a {
+    text-decoration: none;
+    text-align: right;
+    padding: 20px;
+    color: white;
+    
+}
+
+.head-container {
+    margin: 2%;
+}
+.box-01 {
+    background-color: #1f2937;
+    width: 100%;
+    padding: 15px;
+}
+
 
 .box-01 {
-    width: 100%;
-    background-color: #121821;
+    padding: 15px;
     color: white;
-    float: left;
-    clear: both;
-    text-align: left;
+    display: flex;
+    align-content:space-evenly;
+    align-items: center;
 }
 
-.box-01 p {
-    text-align: left;
+.box01-img {
+    max-width: 40%;
+    margin: 5%;
     
+
 }
-.box-01 img {
-    width: 400px;
-    height: 250px;
-    padding: 10px;
+
+.box01-img img {
+    padding: 15px;
     float: right;
-    border-radius: 20px;
-
-}
-
-.box02-info {
-    text-align: center;
-    font-weight: bold;
-    font-size: 45px;
-    
 }
 .box02-container {
     display: flex;
-    flex-wrap: nowrap;
+    flex-wrap: wrap;
+    flex-direction: row;
+    row-gap: 20px;
+    max-width: 100%;
+    justify-content:center;
 }
 
-.box02-container img {
-    height: 250px;
-    width:  250px;
-}
-.fixed-footer {
-    bottom: 0;
-    padding: 20px;
-    width: 100%;
-    background-color: #121821;
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;ß
-    color: white;
+
+
+
+
+.box02-info {
+    color: #1f6cd8;
+    font-size: 20px;
+    font-weight: 300;
     text-align: center;
+    padding: 15px;
+}
+
+.box02-container p {
+    color: lightblue;
+    font-size: 15px;
+    font-weight: 500;
+    padding: 5px;
+}
+.box02-container img {
+    height: 150px;
+    width: 150px;
+    border-radius: 15%;
+    margin: 10px;
+    padding: 0px;
+    border: 5px solid lightblue;
+}
+
+.box-03 {
+    background-color: lightgray;
 }
