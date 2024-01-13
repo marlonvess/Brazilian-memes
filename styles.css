@@ -27,6 +27,7 @@ body {
     text-align: right;
     padding: 20px;
     color: white;
+    margin: 15px;
     
 }
 
@@ -37,23 +38,17 @@ body {
     background-color: #1f2937;
     width: 100%;
     padding: 15px;
-}
-
-
-.box-01 {
-    padding: 15px;
     color: white;
     display: flex;
     align-content:space-evenly;
     align-items: center;
-    margin: 0;
+    margin: auto;
 }
 
-.box01-img {
-    max-width: 40%;
-    margin: 5%;
-    
 
+.box01-img {
+    max-width: 30%;
+    margin: 5%;
 }
 
 .box01-img img {
@@ -101,7 +96,7 @@ body {
     padding: 90px 70px 150px 90px;
     font-style: light italic;
     color: #1f2937;
-    margin: 15px;
+    margin-bottom: 15px;
 }
 
 .box-04 {
